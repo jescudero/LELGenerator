@@ -1,0 +1,275 @@
+INTRODUCCIÓN
+La empresa Norpack produce cajas de cartón corrugado para el embalaje de
+productos de consumo masivo y de gran distribución. Sus clientes son empresas
+distribuidoras que fraccionan productos obtenidos a granel o fabricantes de
+electrodomésticos o de productos comestibles.
+Norpack se encuentra ubicada en el norte del gran Buenos Aires y su área de
+influencia es principalmente también la zona norte de la Capital Federal y el gran
+Buenos Aires aunque una cantidad significativa de sus órdenes de compra
+provienen del resto del gran Buenos Aires y de otros centros urbanos como Rosario
+y Córdoba.
+La producción de la empresa está esencialmente dedicada a las cajas de cartón
+corrugado a medida, aunque tiene una línea de cajas de tamaño y calidad fijas que
+se vende por medio de distribuidores.
+Las cajas a medida se fabrican sobre pedido y tienen una unidad económica mínima
+de 5000 cajas. En cambio las de tamaño fijo se fabrican y se almacenan en el
+depósito, por lo que se pueden vender en cantidades menores.
+Las cajas se entregan a los 30 días corridos de recibirse la orden de compra,
+aunque se ofrece un descuento especial por órdenes recibidas con una anticipación
+de 60 días y se admiten órdenes urgentes con una anticipación de 10 días, pero a
+las mismas se les aplica un sobreprecio importante.
+Esta política comercial está basada en la necesidad de planificar la producción en
+forma apropiada. Las órdenes urgentes tienen asociado el riesgo de utilizar
+demasiada materia prima, provocando un descarte de material excesivo, con el
+natural incremento en los costos de producción.
+La fábrica de cajas de cartón corrugado funciona sin interrupciones en tres turnos 6
+a 14, 14 a 22 y 22 a 6 horas. Las oficinas comerciales, administrativas y de
+planificación de la producción funcionan de lunes a viernes de 9 a 13 y de 14 a 18
+horas.
+Las cajas terminadas pueden ser retiradas de 9 a 13 o de 14 a 17 en las
+instalaciones de la fábrica, pueden ser entregadas en el domicilio del cliente o
+remitirse por un transporte a otra ciudad.
+Las cajas se entregan en el domicilio del cliente según un esquema preestablecido.
+Los días lunes, miércoles y viernes se distribuyen en la zona norte de Capital
+Federal y Gran Buenos Aires, los martes en la zona Oeste y los jueves en la zona
+
+Sur. Los envíos al interior se realizan los días sábado.
+Norpack está sufriendo la competencia de otra fabrica de cajas de cartón corrugado
+que pese a tener los mismos precios y menor calidad en el producto terminado, tanto
+en la caja en sí misma como en las impresiones de sus laterales, ha logrado una
+visible presencia en el mercado por tener una política de plazos y cantidades más
+flexible. Se sospecha que esto se logra en virtud de una planificación más ajustada
+de la producción.
+
+PRODUCTOS ELABORADOS
+Los productos de cartón corrugado fabricados por Norpack son esencialmente tres:
+
+• Cajas de solapa
+• Cajas de tapa y fondo
+• Accesorios
+
+Las cajas de solapa son las más demandadas y se fabrican de forma tal que sus
+laterales son de una sola pieza, pero tanto la tapa como el fondo están constituidos
+por cuatro solapas. Existen variantes en cuanto a la forma de las solapas, pero su
+fabricación no se ve alterada en forma significativa por este hecho.
+Las cajas de tapa y fondo son en realidad dos cajas tal que el tamaño exterior de
+una de ellas coincide con el tamaño interior de la otra. Además, cada una de estas
+dos partes, la tapa y el fondo no tienen una de sus bases, de esta manera la caja se
+conforma embutiendo la caja de menor tamaño en la de mayor tamaño con sus
+caras faltantes enfrentadas. Este tipo de cajas se caracteriza ser más robusta que
+las cajas de solapa, ya que en todos sus laterales se tiene una pared de cartón
+doble.
+Los accesorios son elementos que acompañan la caja y los principales son los
+divisores y los separadores. Los divisores tienen el propósito de fragmentar el
+espacio interior de la caja en forma horizontal, conformando una suerte de caja de
+dos o tres pisos. Por otro lado los separadores conforman casilleros verticales. Los
+divisores se utilizan cuando se colocan en el interior de la caja materiales que se
+desea separar en capas, como por ejemplo frutas, mientras que los separadores se
+utilizan en el caso de cajas que contengan botellas o frascos, especialmente si son
+de vidrio.
+Los clientes de Norpack ordenan las cajas con sus accesorios en forma balanceada,
+por lo que una orden típica sería por ejemplo: 10000 cajas de solapa con 20000
+divisores y 30000 separadores para definir 9 lugares para colocar frascos de vidrio.
+En otras palabras cada caja requiere dos divisores y tres separadores. No todas las
+cajas ordenadas requieren accesorios y eventualmente puede recibirse una orden
+de accesorios aislados.
+
+PROCESO DE FABRICACIÓN
+La fábrica dispone de un conjunto de máquinas que fabrica el cartón corrugado en
+forma continua en una banda de 2,30 metros de ancho. El cartón corrugado está
+compuesto por tres láminas de papel grueso. La lámina central es ondulada
+artificialmente mediante una máquina que la calienta utilizando vapor. Luego las tres
+láminas son pegadas lográndose la rigidez necesaria.
+Al final de línea de producción del cartón corrugado existe una máquina que corta el
+cartón en piezas de tamaño apropiado para que al doblarse y pegarse conformen
+una caja. Esta máquina también realiza marcas en el cartón por donde luego se
+realizarán los dobleces necesarios para armar la caja. Eventualmente estas piezas
+pasaran por otra máquina que imprime en los laterales los textos ordenados por el
+cliente.
+Finalmente una última máquina cuenta la cantidad de cajas producidas y realiza
+paquetes de 50 o 100 cajas para su entrega. Debe quedar claro que las cajas no se
+entregan “armadas”, es decir, las cajas son finalmente armadas en el domicilio del
+cliente, en el momento de ser utilizadas. Esto es necesario ya que si se entregaran
+armadas, el costo de transporte seria inmenso.
+ÓRDENES DE PRODUCCIÓN
+Tan pronto como la orden de compra es aprobada en la oficina comercial de
+Norpack, una copia de la misma es remitida a la oficina de planificación de la
+producción.
+En esta oficina se elabora una orden de producción que contiene una descripción
+detallada de la caja a ser fabricada. Si la orden de compra es por más de un tipo de
+caja se elabora una orden de producción para cada tipo de caja.
+La orden de producción contiene información acerca del despliegue de la caja o de
+los accesorios, es decir, de la caja “desarmada”. Este despliegue es de vital
+importancia en la planificación de la producción, ya que condiciona la forma en que
+la caja se habrá de fabricar y el consumo de materia prima que se realizará en el
+proceso.
+Por ejemplo si el despliegue de la caja se inscribe en un rectángulo de 1,50 por 1,70,
+la mejor forma de producir la caja será ubicar el lado mayor del rectángulo “a lo
+ancho” en la banda de cartón corrugado, pero por cada caja que se fabrique se
+perderá un rectángulo de 0,60 por 1,50. Es decir, en el ejemplo anterior más del 26%
+de la superficie de cartón fabricado es desaprovechada. Este es un punto de
+extrema importancia ya que si se lograra ubicar junto a la anterior otra caja cuyo
+despliegue se inscribe en un rectángulo de 0,80 por 1,70 o de 0,60 por 1,50 se
+tendría que la superficie de cartón desaprovechada es mucho menor.
+Las órdenes de producción están diseñadas de tal manera de facilitar el análisis de
+las posibles combinaciones entre cajas sobre la banda de cartón corrugado.
+
+La planificación de la producción es mucho más difícil de lo que parece indicar el
+ejemplo anterior, ya que deben tenerse en cuenta los siguientes factores:
+
+• Se deben fabricar accesorios.
+• Las cantidades producidas de cada caja pueden ser distintas.
+• En la mayoría de los casos sólo se adapta bien una dimensión, por
+ejemplo en el caso anterior se necesita fabricar una caja cuyo
+despliegue se inscribe en un rectángulo de 0,80 por 1,40. (Cada 17
+cajas de un tipo se fabricarán 14 del otro)
+• Las órdenes tienen distintas fechas de entrega.
+
+Por todos los motivos anteriores resulta evidente que no todas las órdenes de
+producción pueden completarse en un solo paso. Es por esta razón que las órdenes
+de producción están preparadas para que su proceso se realice en varias etapas.
+PLANIFICACIÓN DE LA PRODUCCIÓN
+La oficina de planificación de la producción esta formada por tres personas: el jefe
+de producción y dos oficiales planificadores. Cualquiera de estas personas está
+capacitada para planificar la producción, sin embargo, las tareas se dividen de la
+siguiente manera: el jefe de producción se encarga fundamentalmente de estudiar
+las fallas ocurridas durante la fabricación y su manera de prevenirlas en el futuro,
+uno de los oficiales se ocupa de procesar y ordenar la información enviada por los
+encargados de planta y del depósito de cajas de tamaño fijo, finalmente el otro se
+ocupa de realizar efectivamente los programas de fabricación.
+La planificación de la producción se realiza los días martes y la vigencia de la misma
+se extiende desde el turno de 14 a 22 del día miércoles hasta el turno de 6 a 14 del
+miércoles siguiente.
+Durante la planificación de producción se elaboran 21 programas de producción, uno
+para cada turno de la semana. El encargado de planta de cada turno envía al final
+de su horario de trabajo todas las órdenes de producción terminadas, así como un
+listado de órdenes de producción parcialmente completadas durante su turno. Es
+decir, las órdenes incompletas quedan en poder del encargado de planta quién se
+las entrega al encargado de planta del turno siguiente.
+Además de las órdenes de producción pendientes, el encargado de planta tiene el
+programa de fabricación para su turno y para algunos turnos siguientes. El
+encargado del turno de 14 a 22 horas recibe el programa de fabricación para su
+turno y los tres siguientes. El encargado del turno 22 a 6 horas recibe el programa de
+fabricación para su turno y los dos siguientes. Finalmente el encargado del turno de
+6 a 14 horas recibe el programa de fabricación de su turno y el del turno siguiente.
+Si por algún inconveniente imprevisto alguna parte del programa de fabricación de
+su turno no puede cumplirse, el encargado de planta está autorizado a ejecutar parte
+del programa de producción del o de los turnos siguientes.
+Los programas de fabricación son organizados según secuencias que tienen en
+
+cuenta los movimientos que se deben realizar en los elementos de las máquinas
+involucradas. Es por esta razón que cuando una orden de producción no puede
+realizarse por algún motivo, la misma no debe ser insertada en la secuencia en otro
+lugar, ni por parte del encargado de planta del turno correspondiente ni por los
+encargados de los turnos siguientes, sino que debe ser programada nuevamente.
+Los programas de fabricación de los turnos 6 a 14 y 14 a 22 de los días hábiles
+contienen siempre las órdenes de producción o las combinaciones de órdenes de
+producción más problemáticas. Mientras que los programas de fabricación del turno
+22 a 6 de todos los días y los programas de fabricación de los sábados y domingos
+contienen las órdenes de producción o las combinaciones de órdenes de producción
+más simples.
+Los días miércoles, jueves y lunes se revisan los programas de fabricación del día
+siguiente. El día viernes se revisan los programas de fabricación de los días sábado,
+domingo y lunes. Esta revisión toma en consideración lo que fue fabricado, a partir
+de las órdenes de producción recibidas y los listados de órdenes de producción
+parcialmente completadas durante el turno.
+De todos los programas de fabricación existentes, hayan sido o no modificados
+durante la revisión diaria, sólo los tres primeros, correspondientes a los turnos de 22
+a 6, 6 a 14 y 14 a 22 horas, son entregados al encargado de planta del turno de 14 a
+22 horas. Este a su vez entrega dos de ellos al encargado de planta del turno
+siguiente.
+La planificación de la producción se realiza priorizando aquellas órdenes de
+producción que ocasionen el menor desperdicio de materias primas. Sin embargo, si
+alguna orden de producción, difícil de complementar con alguna otra, se atrasa en
+demasía y el plazo de entrega se reduce a menos de 10 días, la misma se
+transforma en una orden de producción urgente. Las órdenes de producción
+urgentes son siempre incluidas en los programas de fabricación más próximos
+posibles. Las cajas de tamaño fijo suelen ser utilizadas como último recurso para
+complementar órdenes de producción urgentes.
+Si el encargado de turno encuentra imposible cumplir con una porción de su
+programa de fabricación que contiene una orden de producción urgente, debe
+informar esta situación utilizando el formulario “Informe de Dificultades de
+Fabricación”. Cuando este inconveniente ocurra durante un fin de semana o con una
+orden cuyo plazo de entrega sea menor a 5 días, el encargado de planta se deberá
+comunicar inmediatamente con la persona de guardia de la oficina de planificación
+de la producción. Si correspondiera el responsable de la oficina de planificación de la
+producción de guardia podrá emitir un programa de fabricación extraordinario el que
+deberá ser cumplido antes que cualquier otro programa de fabricación existente.
+El programa de fabricación extraordinario podrá ser confeccionado por escrito o ser
+transmitido telefónicamente al encargado de planta, quien lo transcribirá en el
+formulario correspondiente. En todos los casos, el programa de fabricación
+extraordinario deberá ser exhibido al jefe de la oficina de planificación de la
+producción en la primera oportunidad posible quién deberá firmarlo sin excepción.
+
+Norpack tiene una alianza estratégica con Papelera del Sudeste. Esta alianza
+estratégica consiste en que cada empresa se constituye en respaldo de la otra en lo
+que se refiere a situaciones de dificultades de producción. Es así, que todos los
+martes, antes de dar por concluidos los programas de fabricación, los respectivos
+jefes de las oficinas de planificación de la producción se comunican por internet,
+consultándose acerca de la posibilidad de que una orden de producción que
+ocasiona dificultades en Norpack pueda ser fabricada en Papelera del Sudeste o
+viceversa.
+Toda orden de fabricación recibida de Papelera del Sudeste y aceptada es
+considerada como orden de producción urgente, a todos sus efectos.
+
+ACTA DE REUNIÓN
+REUNIÓN ORDINARIA Nro. 4/2010
+
+A los dos días del mes de marzo del año dos mil diez, siendo las dieciocho horas
+se reúne el directorio de NORPACK S.A. con la presencia de todos sus
+miembros titulares quienes firman al pie en señal de conformidad con las
+resoluciones tomadas. Tratados los puntos incluidos en el orden del día y luego
+de recibirse las opiniones de los Señores Directores, se arriba a las siguientes
+resoluciones por unanimidad:
+1) Se acepta el proyecto preliminar de circulación de camiones en planta y se
+encomienda al encargado de depósito la confección de un plano detallado
+y al jefe de compras que recabe presupuestos preliminares para esta obra.
+2) Se acepta el informe acerca del estudio de mercado solicitado al estudio
+RR y asociados acerca del estado y la evolución de la competencia en la
+producción y venta de los productos que fabrica Norpack. En virtud de la
+gravedad potencial y los planes anunciados por la competencia se cita a
+una reunión extraordinaria de este directorio para tratar el informe de la
+auditoría de planta, encomendada a Tecnipapel S.A. tan pronto esté
+disponible.
+3) Se rechazan las ofertas de alquiler con opción a compra, de un nuevo
+camión para reparto de producto terminado, en reemplazo del disponible
+actualmente y se encomienda al jefe de compras, ampliar la base de
+presupuestos disponibles.
+Sin otro asunto que tratar se da por concluida la reunión siendo las veintiuna
+horas.
+
+ACTA DE REUNIÓN
+
+REUNIÓN EXTRAORDINARIA Nro. 1/2010
+
+A los veintisiete días del mes de abril del año dos mil diez, siendo las diecisiete
+horas se reúne el directorio de NORPACK S.A., en reunión extraordinaria, en
+cumplimiento de lo resuelto en el punto 2 de la reunión ordinaria Nro. 4 del
+corriente año, con la presencia de todos sus miembros titulares quienes firman al
+pie en señal de conformidad con las resoluciones tomadas. Tratado el único
+punto del orden del día que consiste en el análisis del informe de auditoría
+recibido de Tecnipapel S.A., cuyos aspectos medulares son:
+1) Los plazos de entrega de las cajas terminadas no se pueden acortar más en
+la situación actual por la morosidad y los errores de transcripción que se
+registran al procesar los listados de órdenes de producción parcialmente
+terminadas. Esta es una dificultad innecesaria ya que la información
+coincide en la mayoría de los casos con lo registrado en el programa de
+fabricación correspondiente.
+2) El proceso de revisión de los programas de fabricación es otra fuente de
+errores ya que existen muchas versiones de los mismos y se suelen
+registrar cambios en versiones obsoletas, lo que ocasiona que algunas
+órdenes de producción se posterguen por largos períodos en forma
+innecesaria.
+3) La mayoría de los inconvenientes registrados se reduciría o eliminaría
+completamente si los programas de fabricación se registraran en una
+computadora y los mismos pudieran ser consultados desde la oficina del
+encargado de planta.
+4) Si bien el proceso de planificación de la producción permanecería siendo
+realizado en forma manual, al disponerse de una herramienta para la
+edición y versionado de los mismos se lograría reducir los errores en
+forma significativa.
+Luego de recibirse las opiniones de los Señores Directores, se decide
+encomendar al jefe de procesamiento de datos el estudio de la solución
+computacional recomendada.
+Sin otro asunto que tratar se da por concluida la reunión siendo las veinte y
+treinta horas.
