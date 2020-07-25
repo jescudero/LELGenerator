@@ -16,11 +16,11 @@ valor_leer = input("Caso de estudio completo S/N?")
 contenido = ""
 
 if valor_leer == "S":
-    f = open("Developer/Python/casoestudio.txt", "r")
+    f = open("casoestudio.txt", "r")
     contenido = f.read()
 
 if valor_leer == "N":
-    f = open("Developer/Python/casoestudiocorto.txt", "r")
+    f = open("casoestudiocorto.txt", "r")
     contenido = f.read()
 
 contenido_sin_espacios = contenido.replace("\n", " ")
@@ -83,22 +83,18 @@ pattern_obj1 = [{"POS": "NOUN"}, {"POS": "ADP"} ,{"POS": "NOUN"}]
 pattern_obj2 = [{"POS": "NOUN"}, {"POS": "ADP"} ,{"POS": "DET"} ,{"POS": "NOUN"}] 
 pattern_obj3 = [{"POS": "NOUN"}, {"POS": "ADJ"}]
 
-matcher.add("OBJ_PHRASE_PATTERN_1", None, pattern_obj1)
-matcher.add("OBJ_PHRASE_PATTERN_2", None, pattern_obj2)
-matcher.add("OBJ_PHRASE_PATTERN_3", None, pattern_obj3)
+matcher.add("OBJ_PHRASE_PATTERN", None, pattern_obj1)
+matcher.add("OBJ_PHRASE_PATTERN", None, pattern_obj2)
+matcher.add("OBJ_PHRASE_PATTERN", None, pattern_obj3)
 
 pattern_subj1 = [{"POS": "NOUN"}, {"POS": "ADP"} ,{"POS": "NOUN"}]
-pattern_subj2 = [{"POS": "NOUN"}, {"POS": "ADP"} ,{"POS": "NOUN"}]
 
 matcher.add("SUBJ_PHRASE_PATTERN_1", None, pattern_subj1)
-matcher.add("SUBJ_PHRASE_PATTERN_2", None, pattern_subj2)
 
 # Añadir los patrones para los estados
 pattern_state = [{"POS": "NOUN"}, {"POS": "ADP"} ,{"POS": "NOUN"}, {"POS": "ADJ"}]
-pattern_state1 = [{"POS": "NOUN"}, {"POS": "ADP"} ,{"POS": "NOUN"}, {"POS": "ADJ"}]
 
 matcher.add("STATE_PHRASE_STATE", None, pattern_state)
-matcher.add("STATE_PHRASE_STATE", None, pattern_state1)
 
 #realizar el match de los patrones y almacenarlo en una lista
 matches = matcher(doc)
@@ -113,17 +109,7 @@ for match_id, start, end in matches:
     # Obtén el span resultante
     string_id = nlp.vocab.strings[match_id]  # Get string representation
     
-    if string_id=="OBJ_PHRASE_PATTERN_1":
-        matched_span = doc[start:end]
-
-        objetos_candidatos.add(matched_span)
-
-    if string_id=="OBJ_PHRASE_PATTERN_2":
-        matched_span = doc[start:end]
-
-        sujeto_candidatos.add(matched_span)
-
-    if string_id=="OBJ_PHRASE_PATTERN_3":
+    if string_id=="OBJ_PHRASE_PATTERN":
         matched_span = doc[start:end]
 
         objetos_candidatos.add(matched_span)
@@ -144,12 +130,6 @@ for match_id, start, end in matches:
             sujeto_candidatos.add(matched_span) 
 
         if matched_span[0].dep_ == "nsubj" and matched_span[1].dep_ == "case" and matched_span[2].dep_ == "nmod":
-            sujeto_candidatos.add(matched_span)
-
-    if string_id=="SUBJ_PHRASE_PATTERN_2":
-        matched_span = doc[start:end]
-
-        if matched_span[0].dep_ == "conj" and matched_span[1].dep_ == "nmod":
             sujeto_candidatos.add(matched_span)
 
     if string_id=="VERB_PHRASE_PATTERN":
