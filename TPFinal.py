@@ -9,7 +9,6 @@ from collections import Counter
 
 os.system('clear') 
 
-nlp = es_core_news_md.load()
 
 valor_leer = input("Caso de estudio completo S/N?")
 
@@ -22,6 +21,15 @@ if valor_leer == "S":
 if valor_leer == "N":
     f = open("casoestudiocorto.txt", "r")
     contenido = f.read()
+
+
+#------------------------------------------------------------------------------------------------------------------------------------
+# Modulo Identificación de simbolos más usados: Tokenizo el documento, eliminación de ruido, armado de listas de palabras más usadas
+#------------------------------------------------------------------------------------------------------------------------------------
+
+print("Inicializando modelo en Español\r\n")
+
+nlp = es_core_news_md.load()
 
 contenido_sin_espacios = contenido.replace("\n", " ")
 doc = nlp(contenido_sin_espacios)
@@ -37,8 +45,9 @@ sujetos_documento = [(token.lemma_,token.dep_) for token in doc if token.is_stop
 frecuencia_sujetos = Counter(sujetos_documento)
 sujetos_mas_usados = frecuencia_sujetos.most_common(30)
 
-print("Los 10 nsubj(lematizados) mas usados en el doc: ")
+print("Los 30 sujetos (lematizados) mas usados en el doc: ")
 print(sujetos_mas_usados)
+print("\r\n")
 
 sustantivos_documento = [(token.lemma_,token.dep_) for token in doc if token.is_stop != True and token.is_punct != True and token.pos_ == "NOUN" ]
 
@@ -47,6 +56,7 @@ sustantivos_mas_usados = frecuencia_sustantivos.most_common(20)
 
 print("Los 20 sustantivos (lematizados) mas usados en el doc: ")
 print(sustantivos_mas_usados)
+print("\r\n")
 
 verbos_documento = [token.lemma_ for token in doc if token.is_stop != True and token.is_punct != True and token.pos_ == "VERB" ]
 
@@ -55,6 +65,7 @@ verbos_mas_usados = frecuencia_verbos.most_common(15)
 
 print("Los 15 verbos (lematizados) mas usados en el doc: ")
 print(verbos_mas_usados)
+print("\r\n")
 
 adjetivos_doc = [token.lemma_ for token in doc if token.is_stop != True and token.is_punct != True and token.pos_ == "ADJ" ]
 
@@ -63,6 +74,14 @@ adjetivos_mas_usados = frecuencia_adjetivos.most_common(10)
 
 print("Los 10 adjetivos (lematizados) mas usados en el doc: ")
 print(adjetivos_mas_usados)
+print("\r\n")
+
+print("Listas de control generadas. Presione una ENTER para continuar")
+input()
+
+#------------------------------------------------------------------------------------------------------------------------------------
+# Modulo de Identificación de frases: patrones para reconocimiento de frases y armado de listas
+#------------------------------------------------------------------------------------------------------------------------------------
 
 # Inicializa el matcher con el vocabulario compartido
 matcher = Matcher(nlp.vocab)
@@ -139,6 +158,31 @@ for match_id, start, end in matches:
     if string_id=="STATE_PHRASE_STATE":
         matched_span = doc[start:end]
         estados_candidatos.add(matched_span)
+
+
+print("Los Objetos candidatos matcheados con los patrones son:")
+print(objetos_candidatos)
+print("\r\n")
+
+print("Los Sujetos candidatos matcheados con los patrones son:")
+print(sujeto_candidatos)
+print("\r\n")
+
+print("Los Verbos candidatos matcheados con los patrones son:")
+print(verbos_candidatos)
+print("\r\n")
+
+
+print("Los Estados candidatos matcheados con los patrones son:")
+print(estados_candidatos)
+print("\r\n")
+
+print("Listas de simbolos del LEL candidatos generadas. Presione una ENTER para continuar")
+input()
+
+#------------------------------------------------------------------------------------------------------------------------------------
+# Modulo de Filtrado de listado de frases: verifico existencia de las frases candidatas en listado de palabras más usadas
+#------------------------------------------------------------------------------------------------------------------------------------
 
 
 verbos_finales_repetidos = []
@@ -218,26 +262,36 @@ for sujeto_ in sujetos_finales_con_repetidos:
     sujetos_finales_limpios.add(sujeto_.text)
 
 
+print("Listas finales de SUJETOS, OBJETOS, VERBOS y ESTADOS:")
 
-print("Verbos")
+print("VERBOS obtenidos:")
 print(verbos_finales_limpios)
-print("Cant. verbos")
+print("Cant. VERBOS")
 print(len(verbos_finales_limpios))
+print("\r\n")
 
-print("Estados")
+print("ESTADOS obtenidos:")
 print(estados_finales_limpios)
-print("Cant. estados")
+print("Cant. ESTADOS")
 print(len(estados_finales_limpios))
+print("\r\n")
 
-print("Sujetos")
+print("SUJETOS obtenidos:")
 print(sujetos_finales_limpios)
-print("Cant. sujetos")
+print("Cant. SUJETOS")
 print(len(sujetos_finales_limpios))
+print("\r\n")
 
-print("Objetos")
+print("OBJETOS obtenidos:")
 print(objetos_finales_limpios)
-print("Cant. objetos")
+print("Cant. OBJETOS")
 print(len(objetos_finales_limpios))
+
+input("Para ver los resultados de control presione ENTER")
+
+#------------------------------------------
+# Mecanismo de control 
+#------------------------------------------
 
 #Proceso de control sujetos
 sujetos_de_control = ["Distribuidora",
@@ -335,7 +389,7 @@ for estado_ in estados_finales_limpios:
     for estado_control_ in estados_de_control:
         if (estado_.lower() == estado_control_.lower()):
             estados_count = estados_count + 1
-            print(verbo_)
+            print(estado_)
 
 print("Cantidad de estados de control: " + str(len(estados_de_control)))
 print("Cantidad de estados encontrados: " + str(estados_count))
